@@ -19,6 +19,8 @@ Basic feature of the application should include:
 
 ## Solution
 
+The solution is console based, so the user must run the application and interact with it through the terminal.
+
 #### Requirements
 
 * Maven 3.3+
