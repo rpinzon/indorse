@@ -1,5 +1,7 @@
 package org.rpinzon.indorse.matrix;
 
+import org.apache.commons.lang3.Validate;
+
 /**
  * Created by Renan T. Pinzon on 24/03/19.
  */
@@ -17,7 +19,16 @@ public class MatrixMultiplication {
      * @return a matrix product
      */
     public int[][] run(int[][] firstMatrix, int[][] secondMatrix) {
-        return new int[firstMatrix.length][secondMatrix[0].length];
+        Validate.isTrue(firstMatrix[0].length == secondMatrix.length, "The number of columns in the first matrix must match the number of rows in the second to be able to multiply them!");
+        int[][] result = new int[firstMatrix.length][secondMatrix[0].length];
+        for (int row = 0; row < firstMatrix.length; row++) {
+            for (int col = 0; col < secondMatrix[0].length; col++) {
+                for (int i = 0; i < firstMatrix[0].length; i++) {
+                    result[row][col] += firstMatrix[row][i] * secondMatrix[i][col];
+                }
+            }
+        }
+        return result;
     }
 
 }
