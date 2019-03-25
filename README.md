@@ -16,3 +16,26 @@ Basic feature of the application should include:
 * Should print out Matrix 1
 * Should print out Matrix 2
 * Should print out the result matrix
+
+## Solution
+
+#### Requirements
+
+* Maven 3.3+
+* Java 1.8
+
+#### Building the project
+
+To build the project you can either clone the repository or download it as a ZIP file and run the command `mvn clean install`.
+
+#### Running the tests
+
+The tests can be run through the command `mvn verify`.
+
+#### Running the application
+
+To run the application the following commands can be used:
+
+* `mvn spring-boot:run` (preferred)
+* `mvn spring-boot:start`
+* `java -jar target/indorse-0.1.0-SNAPSHOT.jar` (requires to specify the artifact name correctly)
