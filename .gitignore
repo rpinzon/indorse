@@ -1,7 +1,4 @@
 .DS_Store
-/target/
-/.settings
-/.classpath
-/.project
-/.idea
-/indorse.iml
+.idea
+indorse.iml
+target
