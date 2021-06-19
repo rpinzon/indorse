@@ -1,4 +1,4 @@
-package org.rpinzon.indorse.util;
+package com.github.rpinzon.util;
 
 import org.apache.commons.lang3.Validate;
 import org.slf4j.Logger;

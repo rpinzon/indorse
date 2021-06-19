@@ -1,4 +1,4 @@
-package org.rpinzon.indorse.matrix;
+package com.github.rpinzon.matrix;
 
 import org.apache.commons.lang3.Validate;
 

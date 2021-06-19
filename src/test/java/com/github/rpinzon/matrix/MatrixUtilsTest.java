@@ -1,7 +1,7 @@
-package org.rpinzon.indorse.matrix;
+package com.github.rpinzon.matrix;
 
+import com.github.rpinzon.util.MatrixUtils;
 import org.junit.Test;
-import org.rpinzon.indorse.util.MatrixUtils;
 
 /**
  * Created by Renan T. Pinzon on 25/03/19.

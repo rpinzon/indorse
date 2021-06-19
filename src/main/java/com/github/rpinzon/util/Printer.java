@@ -1,4 +1,4 @@
-package org.rpinzon.indorse.util;
+package com.github.rpinzon.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,10 +1,10 @@
-package org.rpinzon.indorse;
+package com.github.rpinzon;
 
+import com.github.rpinzon.util.MatrixUtils;
+import com.github.rpinzon.util.Printer;
 import org.apache.commons.lang3.Validate;
-import org.rpinzon.indorse.matrix.MatrixMultiplication;
-import org.rpinzon.indorse.util.Console;
-import org.rpinzon.indorse.util.MatrixUtils;
-import org.rpinzon.indorse.util.Printer;
+import com.github.rpinzon.matrix.MatrixMultiplication;
+import com.github.rpinzon.util.Console;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

@@ -12,7 +12,7 @@
     </encoder>
   </appender>
 
-  <logger name="org.rpinzon.indorse" level="info" additivity="false">
+  <logger name="com.github.rpinzon" level="info" additivity="false">
     <appender-ref ref="stdout"/>
   </logger>
 
